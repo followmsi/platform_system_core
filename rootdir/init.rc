@@ -298,7 +298,6 @@ on post-fs
     load_system_props
     # start essential services
     start logd
-    start logcatd
     start servicemanager
     start hwservicemanager
     start vndservicemanager
